@@ -1,25 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*
+
+Typography is the way that text 
+is arranged and presented
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    border: 10px double rgb(255, 174, 0);
-    font-size: 1.5rem;
-    margin: 1.5em;
-    padding: 1.5rem;
-    outline: 5px solid purple;
-    outline-offset: -25px;
-}
-
-.circle {
-    margin: 3rem auto;
-    background: gold;
-    width: 100px;
-    height: 100px;
-    border: solid black;
-    border-radius: 50px;
-    outline: 2px solid red;
-    outline-offset: 0.25rem;
+/* input, button {
+    font: inherit;
+} */
+p {
+    line-height: 1.5;
 }
