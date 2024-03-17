@@ -1,0 +1,123 @@
+body {
+    height: 4000px
+}
+
+p {
+    outline-color: red;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: .5em;
+}
+
+p.dotted {
+    outline-style: dotted;
+}
+
+p.dashed {
+    outline-style: dashed;
+}
+
+p.solid {
+    outline-style: solid;
+}
+
+p.double {
+    outline-style: double;
+}
+
+p.groove {
+    outline-style: groove;
+}
+
+p.ridge {
+    outline-style: ridge;
+}
+
+p.inset {
+    outline-style: inset;
+}
+
+p.outset {
+    outline-style: outset;
+}
+
+/*
+CSS Outline Width 
+
+The outline-width property specifies the width of the 
+outline, and can have one of the following values: 
+
+thin (typically 1px)
+medium (typically 3px) 
+thick (typically 5px) 
+A specific size (in px, pt, cm, em, etc)
+
+The following example shows some outlines with different widths:
+
+*/
+p.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+}
+
+p.ex2 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+}
+
+p.ex3 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+}
+
+p.ex4 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+}
+
+/*
+CSS Outline - Shorthand property 
+The outline property is a shorthand property for 
+setting the following individual outline properties: 
+ - outline-width 
+ - outline-style (required) 
+ - outline-color 
+
+The outline property is specified as one, two, or three values 
+from the list above. The order of the values does not matter. 
+
+The following example shows some outlines specified with the 
+shorthand outline property:
+*/
+.ex5 {
+    outline: dashed;
+}
+
+.ex6 {
+    outline: red dotted
+}
+
+.ex7 {
+    outline: 5px solid yellow;
+}
+
+.ex8 {
+    outline: thick ridge pink
+}
+
+.ex9 {
+    margin: 30px auto;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+    background: yellow;
+}
