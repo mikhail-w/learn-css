@@ -1,0 +1,42 @@
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+ul.e {
+    list-style-image: url('sqpurple.gif');
+}
+
+ol.f {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul.g {
+    background: #3399ff;
+    padding: 20px;
+}
+
+ol.f li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul.g li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
