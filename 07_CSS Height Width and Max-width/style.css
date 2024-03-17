@@ -1,0 +1,17 @@
+.ex1 {
+    border: 1px solid #4CAF50;
+    height: 50px;
+    width: 100%;
+}
+
+.ex2 {
+    background: skyblue;
+    height: 200px;
+    width: 50%;
+}
+
+.ex3 {
+    background: #4CAF50;
+    height: 100px;
+    max-width: 500px;
+}
