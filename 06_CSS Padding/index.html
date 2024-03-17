@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CSS Padding</title>
+  </head>
+  <body>
+    <h2>CSS Padding</h2>
+    <div class="pad">This element has a padding of 70px.</div>
+    <h2>Using individual padding properties</h2>
+
+    <div class="individual-padding">
+      This div element has a top padding of 50px, a right padding of 30px, a bottom
+      padding of 50px, and a left padding of 80px.
+    </div>
+
+    <h2>The padding shorthand property - 4 values</h2>
+
+    <div class="padding-shorthand">
+      This div element has a top padding of 25px, a right padding of 50px, a bottom
+      padding of 75px, and a left padding of 100px.
+    </div>
+
+    <h2>Padding and element width</h2>
+
+    <div class="ex1">This div is 300px wide.</div>
+    <br />
+
+    <div class="ex2">
+      The width of this div is 350px, even though it is defined as 300px in the CSS.
+    </div>
+
+    <h2>Padding and element width - with box-sizing</h2>
+
+    <div class="ex3">This div is 300px wide.</div>
+    <br />
+
+    <div class="ex4">
+      The width of this div remains at 300px, in spite of the 50px of total left and right
+      padding, because of the box-sizing: border-box property.
+    </div>
+  </body>
+</html>

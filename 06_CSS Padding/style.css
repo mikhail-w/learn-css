@@ -1,0 +1,51 @@
+.pad {
+    border: 1px solid green;
+    padding: 70px;
+}
+
+.individual-padding {
+    border: 1px solid black;
+    background: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.padding-shorthand {
+    border: 1px solid black;
+    background: lavender;
+    padding: 25px 50px 75px 100px;
+}
+
+/*
+If the padding property has three values: 
+
+padding: 25px 50px 75px;
+
+top padding is 25px 
+right and left paddings are 50px 
+bottom padding is 75px
+*/
+.ex1 {
+    background: yellow;
+    width: 300px;
+}
+
+.ex2 {
+    background: lightcoral;
+    width: 300px;
+    padding: 25px;
+}
+
+.ex3 {
+    background: yellow;
+    width: 300px;
+}
+
+.ex4 {
+    background: lightseagreen;
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
