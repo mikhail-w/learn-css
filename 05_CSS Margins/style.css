@@ -1,0 +1,41 @@
+.margin {
+    background: lightblue;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    border: 1px solid black;
+    width: 23%
+}
+
+/*
+Margin - Shorthand Property 
+To shorten the code, it is possible to specify all the margin properties in one property. The margin property is a shorthand property for the following individual margin properties:
+
+ - margin-top 
+ - margin-right 
+ - margin-bottom 
+ - margin-left
+
+ If the margin property has four values: 
+
+ margin: 25px 50px 75px 100px;
+
+    - top margin is 25px 
+    - right margin is 50px 
+    - bottom margin is 75px 
+    - left margin is 100px
+*/
+/*Example*/
+.shorthand {
+    border: 1px solid black;
+    margin: 25px 50px 75px 100px;
+    background-color: blanchedalmond;
+    width: 30%
+}
+
+.auto {
+    border: 1px solid red;
+    margin: auto;
+    width: 300px;
+}
