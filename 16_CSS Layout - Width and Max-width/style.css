@@ -1,0 +1,9 @@
+.ex1 {
+    border: 3px solid rgb(13, 230, 38);
+    width: 500px;
+}
+
+.ex2 {
+    border: 3px solid rgb(13, 230, 38);
+    max-width: 500px;
+}
