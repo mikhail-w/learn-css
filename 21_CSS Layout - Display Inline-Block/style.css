@@ -1,0 +1,44 @@
+body {
+    height: 3000px;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 150px;
+}
+
+span {
+    border: 2px solid blue;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    margin: 0 1px;
+}
+
+.a {
+    display: inline;
+}
+
+.b {
+    display: inline-block;
+}
+
+.c {
+    display: block;
+}
+
+/*Horizontal Navigation Links*/
+.nav {
+    background: yellow;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px;
+}
