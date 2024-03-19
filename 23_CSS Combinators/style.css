@@ -1,0 +1,19 @@
+/* Descendant Selector */
+.div1 p {
+    background-color: yellow;
+}
+
+/* Child Selector */
+.div2>p {
+    background-color: aqua;
+}
+
+/* Adjacent Sibling Selector */
+.div3+p {
+    background-color: chocolate;
+}
+
+/* General Sibling Selector */
+.div4~p {
+    background-color: rgb(0, 255, 98);
+}
