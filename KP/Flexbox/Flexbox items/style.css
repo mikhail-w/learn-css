@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 25vh;
+    width: 90vw;
+    margin: 25vh auto;
+    padding: .5em;
+    background: pink;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: stretch;
+}
+
+.item {
+    background: lightblue;
+    margin: .5em;
+}
+
+.one {
+    flex: 2 250px
+}
+
+.two {
+    flex: 1 2 250px;
+    align-self: center;
+    order: 2;
+}
+
+.three {
+    flex: 1 2 250px;
+    order: -1;
+}
