@@ -35,7 +35,7 @@ body {
 }
 
 .logo {
-    margin-right: 1em;
+    /* margin-right: 1em; */
 }
 
 .nav__list {
@@ -43,6 +43,10 @@ body {
     padding: 0;
     list-style: none;
     display: flex;
+}
+
+.nav__list--primary {
+    margin: 0 auto;
 }
 
 .nav__item {
