@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.item {
+    background: lightblue;
+    gap: 20px;
+    text-align: center;
+}
