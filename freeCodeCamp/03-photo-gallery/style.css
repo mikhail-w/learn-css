@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+.header {
+  text-align: center;
+  background-color: #0a0a23;
+  color: #fff;
+  margin-top: 0px;
+  border-bottom: 4px solid #fdb347;
+  text-transform: uppercase;
+  padding: 32px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+.gallery img {
+  max-width: 350px;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
