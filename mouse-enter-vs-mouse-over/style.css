@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  background-color: rgb(80, 40, 125);
+  color: white;
+  padding: 20px 10px;
+}
+
+.right {
+  background-color: rgba(159, 198, 31, 0.786);
+  padding: 20px 10px;
+}
+
+.box {
+  border: 4px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.ablue {
+  background-color: rgb(43, 0, 255);
+}
+
+.ayellow {
+  background-color: rgb(255, 42, 0);
+}
