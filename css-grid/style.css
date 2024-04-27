@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  font-family: 'Segoe UI', sans-serif;
+  /* margin: 0; */
+}
+
+.div {
+  color: #fff;
+  background-color: darkgoldenrod;
+  padding: 1rem;
+  text-align: center;
+  border: solid 2px khaki;
+  font-size: 1.4em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(2, 100px);
+}
